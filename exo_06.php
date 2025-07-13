@@ -1,10 +1,7 @@
 <?php 
-function a ($func) {
-    $func = strtoupper($func);
-    return $func ;
-}
-
-$var_majiscule = a('delp');
-echo $var_majiscule ;
-
+$ananyme = function  ($func) {
+    return strtoupper($func);
+};
+$a =  $ananyme ('del');
+echo $a ;
 ?>

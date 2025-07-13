@@ -2,7 +2,7 @@
 function a ( $nbre) {
 for ($var = 1; $var <= $nbre ; $var ++) 
 { 
-    echo 'woof' .' <br/>' ;
+    echo 'woof' ."\n" ;
 }
 
 }
